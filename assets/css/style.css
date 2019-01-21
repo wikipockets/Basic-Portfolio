@@ -1,0 +1,196 @@
+
+
+/*    CSS File for Homework week 2*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+
+audio,
+canvas,
+
+/*border*/ {
+    box-sizing: border-box;
+}
+
+/*    body modifier - color, font selection, overall size, bg img*/
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("assets/images/folk-pattern.png) 
+    overflow: auto;
+    margin: 0 auto;
+    color: rgb(119,119,119);
+}
+
+
+
+/* main margin*/
+
+#main {
+    width 960px;
+    marigin: 0 auto;
+}
+
+/*    Header bg, bottom, Margin*/
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 3px solid #ccc;
+    background: white;
+    margin-bottom: 30px;
+}
+
+/*    nav bar*/
+
+nav {
+    margin-top: 25px;
+    text-align: center;
+    width: 300px;
+    float: right;
+}
+
+/*    Nav color and text*/
+
+    nav a {
+        text-decoration: none;
+        color: #ccc;
+    }
+
+/*
+    Nav list
+*/
+}
+
+nav ul li {
+    display: inline;
+}
+
+/*    Text area input*/
+
+input, text area {
+    display: block;
+    margin: 5px 0 20px 0;
+    padding: 4px;
+    border: 2 px solid #ccc;
+    width: 100%;
+    font-size: 16px;
+}
+
+/*form label font and display*/
+
+form label {
+    display: block;
+    font-size: 18px;
+}
+
+/*Paragraph line height, margin size, font*/
+
+p {
+    line-height: 22px;
+    margin-bottom: 20px;
+    font-size: 16 px;
+    line-height: 2.5;
+}
+/*Test Area specific mod*/
+textarea {
+    height: 300px;
+    width: 100%;
+}
+/* Form button*/
+form button {
+    border: none;
+    background: #4aaaa5;
+    padding: 10px;
+    20px;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 18px;
+}
+/*image location*/
+.proimg {
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 2 px solid #333;
+}
+/*Portfolio*/
+.entry {
+    float: left;
+    background-color: rgba (0,0,0, .5) 
+    margin-bottom: 20px;
+    position: relative;
+    height: 250px;
+    width: 45%;
+}
+#left-column {
+    background: white;
+    padding: 25px;
+    border: 2px solid #ccc;
+    width: 960px;
+    float: left;
+}
+
+#left-column h2 {
+        font-size: 35px;
+        padding: 15px 0;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #ccc;
+    }
+
+.entry h4 {
+        padding: 15px 0;
+        text-align: center;
+        position: absolute;
+        color: white;
+        background: #4aaaa5;
+        bottom: 0px;
+        width: 100%;
+    }
+.entry:nth-of-type(even) {
+        float: right;
+    }
+/*bottom transparancy*/
+.trans {
+    display: block;
+    clear: both;
+}
+
+/**porfolio picture placements*/
+
+#prt1 {
+    background: url(../images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#prt2 {
+    background: url(../images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#prt3 {
+    background: url(../images/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#prt4 {
+    background: url(../images/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#prt5 {
+    background: url(../images/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
