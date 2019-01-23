@@ -53,23 +53,27 @@ nav {
     text-align: center;
     width: 300px;
     float: right;
+    display: inline;
+    text-decoration: none;
+    color: #ccc;
+}
 }
 
-/*    Nav color and text*/
+/*    Nav color and text
 
-    nav a {
+    nava {
         text-decoration: none;
         color: #ccc;
-    }
+    }*/
 
 /*
     Nav list
-*/
+
 }
 
-nav ul li {
+nav-ul-li {
     display: inline;
-}
+}*/
 
 /*    Text area input*/
 
