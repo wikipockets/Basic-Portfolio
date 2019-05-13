@@ -1,200 +1,182 @@
-
-
-/*    CSS File for Homework week 2*/
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section,
-audio,
-canvas,
-
-/*border*/ {
-    box-sizing: border-box;
-}
-
-/*    body modifier - color, font selection, overall size, bg img*/
-
 body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url("assets/images/folk-pattern.png) 
-    overflow: auto;
-    margin: 0 auto;
-    color: rgb(119,119,119);
+    background-color: #dddddd;
+    min-height: 100%;
 }
 
-
-
-/* main margin*/
-
-#main {
-    width 960px;
-    marigin: 0 auto;
+html {
+    min-height: 100%;
 }
 
-/*    Header bg, bottom, Margin*/
-
-header {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    border-bottom: 3px solid #ccc;
-    background: white;
-    margin-bottom: 30px;
-}
-
-/*    nav bar*/
-
-nav {
-    margin-top: 25px;
-    text-align: center;
-    width: 300px;
-    float: right;
-    display: inline;
-    text-decoration: none;
-    color: #ccc;
-}
-}
-
-/*    Nav color and text
-
-    nava {
-        text-decoration: none;
-        color: #ccc;
-    }*/
-
-/*
-    Nav list
-
-}
-
-nav-ul-li {
-    display: inline;
-}*/
-
-/*    Text area input*/
-
-input, text area {
-    display: block;
-    margin: 5px 0 20px 0;
-    padding: 4px;
-    border: 2 px solid #ccc;
+.top {
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: #ffffff;
     width: 100%;
-    font-size: 16px;
+    height: 51px;
 }
 
-/*form label font and display*/
+li {
+    display: inline-block;
+    /*top right bottom left*/
+    margin: 0 20px 0 20px;
+    padding: 0;
+}
 
-form label {
-    display: block;
+a {
     font-size: 18px;
 }
 
-/*Paragraph line height, margin size, font*/
+nav ul {
+    top: 0;
+    right: 0px;
+    position: absolute;
+}
 
-p {
-    line-height: 22px;
-    margin-bottom: 20px;
-    font-size: 16 px;
-    line-height: 2.5;
+.leftbox {
+    display: inline-block;
+    width: 650px;
+    border: 1px solid #000;
+    text-align: left;
+    background-color: #ffffff;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 40px;
+    float: left;
 }
-/*Test Area specific mod*/
-textarea {
-    height: 300px;
-    width: 100%;
+
+.leftbox img {
+    float: left;
+    margin: 15px;
 }
-/* Form button*/
-.form button {
-    border: none;
+
+.leftbox h1 {
+    margin-left: 20px;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.social {
+    display: inline-block;
+    width: 270px;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 20px;
+    float: left;
+}
+
+.innerbox {
+    padding: 20px;
+    border-top: 1px solid black;
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.innerbox ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.innerbox ul {
+    padding: 0;
+}
+
+header h1 {
+    margin-left: 100px;
+    border: 1px solid #000;
+    text-align: center;
     background-color: #4aaaa5;
-    padding: 10px 20px;
-    margin: 10px 0;
-    color: #fff;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    top: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    text-align: left;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-top: 0;
+    line-height: 1.5;
+}
+
+.boxwidth {
+    width: 550px;
+}
+
+.msgbox {
+    width: 550px;
+    height: 130px;
+}
+
+bottomborder {
+    background-color: #4aaaa5;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 62px;
+}
+
+footer {
+    background-color: #666666;
+    color: #dddddd;
+    font-size: 12px;
     text-align: center;
-    font-size: 18px;
+    height: 40px;
+    padding-top: 25px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
-/*image location*/
-.proimg {
-    float: left;
-    margin: 0 15px 15px 0;
-    border: 2 px solid #333;
-}
-/*Portfolio*/
 
-/*Portfolio image/text*/
-.entry {
-    float: left;
-    background-color: rgba (0,0,0, .5) 
-    margin-bottom: 20px;
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    margin-right: 140px;
     position: relative;
-    height: 250px;
-    width: 45%;
-}
-/**/
-#lefty {
-    background: white;
-    padding: 25px;
-    border: 2px solid #ccc;
-    width: 960px;
-    float: left;
 }
 
-#left-columnh2 {
-        font-size: 35px;
-        padding: 15px 0;
-        margin-bottom: 20px;
-        border-bottom: 2px solid #ccc;
-    }
-
-.entry-a {
-        padding: 15px 0;
-        text-align: center;
-        position: absolute;
-        color: white;
-        background: #4aaaa5;
-        bottom: 0px;
-        width: 100%;
-    }
-.entry:nth-of-type(even) {
-        float: right;
-    }
-/*bottom transparancy*/
-.trans {
-    display: block;
-    clear: both;
-}
-
-/**porfolio picture placements*/
-
-#prt1 {
-    background: url(../images/1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat
-}
-
-#prt2 {
-    background: url(../images/2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat
-}
-
-#prt3 {
-    background: url(../images/3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat
-}
-
-#prt4 {
-    background: url(../images/4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat
-}
-
-#prt5 {
-    background: url(../images/5.jpg);
-    background-size: cover;
-    background-repeat: no-repeat
+.caption {
+    background-color: #4aaaa5;
+    height: 30px;
+    margin-top: 115px;
+    margin-left: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+    width: 200px;
+    position: absolute;
+    z-index: 100;
 }
